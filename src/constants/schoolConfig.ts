@@ -331,6 +331,8 @@ export const SCHOOL_CONFIG = {
   theme: {
     /** Stripes, tagline text – bright gold from "KNOWLEDGE IS POWER" motto */
     accent: '#F0D030',
+    /** Tagline uses the school's existing ribbon accent. */
+    ribbonTagline: '#F0D030',
     /** Four-stop diagonal ribbon – navy → green → gold → saffron (logo + Indian flag ribbon) */
     ribbonGradient: ['#103070', '#227030', '#D0B030', '#E87820'] as const,
     /** Optional stops for expo-linear-gradient (length must match ribbonGradient) */
